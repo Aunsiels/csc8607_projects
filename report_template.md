@@ -82,7 +82,14 @@ Listez précisément les opérations et paramètres (valeurs **fixes**) :
 
 ## 2) Modèle
 
-### 2.1 Architecture implémentée
+### 2.1 Baselines
+
+**M0.**
+- **Classe majoritaire** — Métrique : `_____` → score = `_____`
+- **Prédiction aléatoire uniforme** — Métrique : `_____` → score = `_____`  
+_Commentez en 2 lignes ce que ces chiffres impliquent._
+
+### 2.2 Architecture implémentée
 
 - **Description couche par couche** (ordre exact, tailles, activations, normalisations, poolings, résiduels, etc.) :
   - Input → …
@@ -103,12 +110,6 @@ Listez précisément les opérations et paramètres (valeurs **fixes**) :
 **M1.** Décrivez l’**architecture** complète et donnez le **nombre total de paramètres**.  
 Expliquez le rôle des **2 hyperparamètres spécifiques au modèle** (ceux imposés par votre sujet).
 
-### 2.2 Baselines
-
-**M0.**
-- **Classe majoritaire** — Métrique : `_____` → score = `_____`
-- **Prédiction aléatoire uniforme** — Métrique : `_____` → score = `_____`  
-_Commentez en 2 lignes ce que ces chiffres impliquent._
 
 ### 2.3 Perte initiale & premier batch
 
